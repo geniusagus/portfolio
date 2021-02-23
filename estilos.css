@@ -291,7 +291,14 @@ margin: 0;
 
 .backblue{
   background-color: #E4F1FF;
+}
 
+.backred{
+  background-color: #FFF6F6;
+}
+
+.colorred{
+  color: #D11A30;
 }
 
 .white{
@@ -425,11 +432,21 @@ margin: 0;
     color: #D11A30;
 }
 
+.colorverde{
+  color: #0A4D58;
+}
+
+.backverde{
+  background-color: #ECFFF8;
+}
 
 .max{
     max-width: 500px;
 }
 
+.w100{
+  width: 100%;
+}
 
 .descripworks{
   font-family: Gilroy;
