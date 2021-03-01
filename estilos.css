@@ -14,26 +14,27 @@ a{
 }
 
 h1{
-    font-family: Gilroy;
+    font-family:'Gilroy';
     font-size: 64px;
-    font-weight: 800;
+    font-weight: 700;
     line-height: 78px;
     text-align: center;
     color: #222222;
 }
+
 h2{
-    font-family: Gilroy;
-    font-size: 64px;
-    font-weight: 800;
+  font-family: 'DM Sans', sans-serif;;
+    font-size: 56px;
+    font-weight: 700;
     line-height: 78px;
     color: #222222;
     margin-bottom: 32px;
 }
 
 .client{
-font-family: Gilroy;
+  font-family:'Gilroy';
 font-size: 36px;
-font-weight: 800;
+font-weight: 700;
 line-height: 44px;
 text-align: center;
 color: #00397C;
@@ -43,9 +44,9 @@ margin-bottom: 8px;
 }
 
 .workedon{
-  font-family: Open Sans;
+  font-family: 'DM Sans', sans-serif;
 font-size: 24px;
-font-weight: 400;
+font-weight: 500;
 line-height: 33px;
 text-align: center;
   color: #00397C;
@@ -54,7 +55,7 @@ text-align: center;
 
 
 h3{
-    font-family: Open Sans;
+    font-family: 'DM Sans', sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 25px;
@@ -64,21 +65,22 @@ h3{
 }
 
 h4{
-    font-family: Gilroy;
+    font-family: 'DM Sans', sans-serif;
     font-size: 18px;
-    font-weight: 800;
+    font-weight: 700;
     line-height: 22px;
     text-align: left;  
-    text-transform: uppercase;
     color: #222222;
-  
+}
+nav h4{
+  font-family: 'Gilroy';
 }
 
 
 h5{
-    font-family: Gilroy;
+    font-family: 'Gilroy';
     font-size: 14px;
-    font-weight: 800;
+    font-weight: 700;
     line-height: 17px;
     text-align: left;
     text-transform: uppercase;
@@ -97,7 +99,7 @@ h5:hover{
 
 
 p{
-    font-family: Open Sans;
+    font-family: 'DM Sans', sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 27px;
@@ -108,7 +110,7 @@ p{
 }
 
 .firma{
-font-family: Open Sans;
+font-family: 'DM Sans', sans-serif;
 font-size: 12px;
 font-weight: 400;
 line-height: 14px;
@@ -119,9 +121,9 @@ margin: 0;
 }
 
 .button{
-    font-family: Gilroy;
+    font-family: 'DM Sans', sans-serif;
     font-size: 18px;
-    font-weight: 800;
+    font-weight: 700;
     text-align: center;
     color: #FFFFFF;
     text-decoration: none;
@@ -137,7 +139,6 @@ margin: 0;
 .button:hover{
     color: #FFFFFF;
     background-color: #16439A;
-    transform: scale(1.05);
 
 }
 
@@ -148,9 +149,9 @@ margin: 0;
 
 
 .buttonsec{
-    font-family: Gilroy;
+    font-family: 'DM Sans', sans-serif;
     font-size: 16px;
-    font-weight: 800;
+    font-weight: 700;
     text-align: center;
     color: #222222;
     text-decoration: none;
@@ -418,10 +419,10 @@ h4:hover{
 
 
 .tituloproyecto{
-font-family: Gilroy;
+font-family: 'DM Sans', sans-serif;
 font-size: 32px;
 font-style: normal;
-font-weight: 800;
+font-weight: 700;
 line-height: 29px;
 text-align: left;
 color: #0A4D58;
@@ -429,10 +430,10 @@ margin-bottom: 8px;
 }
 
 .cliente{
-font-family: Gilroy;
+font-family: 'DM Sans', sans-serif;
 font-size: 24px;
 font-style: normal;
-font-weight: 800;
+font-weight: 700;
 line-height: 20px;
 text-align: left;
 color: #0A4D58;
@@ -440,7 +441,7 @@ margin-bottom: 16px;
 }
 
 .descrip{
-font-family: Open Sans;
+font-family: 'DM Sans', sans-serif;
 font-size: 20px;
 font-style: normal;
 font-weight: 400;
@@ -487,20 +488,19 @@ margin: 0;
 }
 
 .max{
-    max-width: 500px;
+    max-width: 600px;
 }
+
+.parrafoprin{
+  font-size: 20px;
+  font-family: 'DM Sans', sans-serif;
+  line-height: 33px;
+  margin-bottom: 64px;
+}
+
 
 .w100{
   width: 100%;
-}
-
-.descripworks{
-  font-family: Gilroy;
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 22px;
-  text-align: left;
-  
 }
 
 /*animaciones */
