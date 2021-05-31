@@ -19,16 +19,15 @@ h1{
     font-weight: 700;
     line-height: 78px;
     text-align: center;
-    color: #222222;
+    color: #333333;
 }
 
 h2{
-  font-family: 'DM Sans', sans-serif;;
-    font-size: 56px;
+  font-family: 'Gilroy', sans-serif;;
+    font-size: 48px;
     font-weight: 700;
-    line-height: 78px;
-    color: #222222;
-    margin-bottom: 32px;
+    color: #333333;
+    margin-bottom: 16px;
 }
 
 .client{
@@ -70,11 +69,14 @@ h4{
     font-weight: 700;
     line-height: 22px;
     text-align: left;  
-    color: #222222;
+    color: #333333;
+    margin: 0;
 }
 nav h4{
   font-family: 'Gilroy';
 }
+
+a{display: inline-block;}
 
 
 h5{
@@ -83,8 +85,9 @@ h5{
     font-weight: 700;
     line-height: 17px;
     text-align: left;
+    margin: 0;
     text-transform: uppercase;
-    color: #222222;
+    color: #333333;
     text-decoration: none;
     transition-duration: 0.2s;
     -webkit-transition-duration: 0.2s;
@@ -110,7 +113,6 @@ p{
 }
 
 .firma{
-font-family: 'DM Sans', sans-serif;
 font-size: 12px;
 font-weight: 400;
 line-height: 14px;
@@ -138,13 +140,13 @@ margin: 0;
 
 .button:hover{
     color: #FFFFFF;
-    background-color: #16439A;
+    background-color: #1853c9;
 
 }
 
 .selected{
-  border-bottom: solid #22417E 2px;
-  padding-bottom: 8px;
+  border-bottom: solid #1853c9 2px;
+  color: #1853c9;
 }
 
 
@@ -153,7 +155,7 @@ margin: 0;
     font-size: 16px;
     font-weight: 700;
     text-align: center;
-    color: #222222;
+    color: #333333;
     text-decoration: none;
     display: inline-block;
     margin-left: 32px;
@@ -163,7 +165,7 @@ margin: 0;
 
 .buttonsec:hover{
     letter-spacing: 1px;
-    color: #222222;
+    color: #333333;
 }
 
 
@@ -173,6 +175,7 @@ margin: 0;
     flex-direction: row;
     flex-wrap: wrap;
 }
+
 .grid{
     display: grid;
     grid-template-rows: auto auto auto auto;
@@ -285,6 +288,7 @@ margin: 0;
 
 .flex-end{
     justify-content: flex-end;
+    align-items: center;
 }
 .flex-center{
     justify-content: center;
@@ -295,7 +299,7 @@ margin: 0;
 }
 
 .padp{
-    padding: 16px 16px 16px 16px;
+    padding: 12px;
 }
 
 .m32{
@@ -343,7 +347,7 @@ margin: 0;
 }
 
 .black{
-    background-color:#222222;
+    background-color:#333333;
 }
 
 nav{
@@ -492,10 +496,11 @@ margin: 0;
 }
 
 .parrafoprin{
-  font-size: 20px;
+  font-size: 18px;
   font-family: 'DM Sans', sans-serif;
-  line-height: 33px;
-  margin-bottom: 64px;
+  line-height: 30px;
+  margin-bottom: 32px;
+  margin-left: 2px;
 }
 
 
@@ -893,7 +898,42 @@ margin: 0;
   }
 
 nav{
-  padding: 64px 32px;
+  width: auto;
+  padding: 24px 24px;
+}
+
+.polaroid{
+  width: 100%;
+}
+
+.polaroidhover{
+  width: 100%;
+  display: none;
+}
+
+.mcenter{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+h1{
+  font-size: 48px;
+}
+
+.work1, .work2, .work3, .work4, .work5, .work6{
+  padding: 24px;
+  margin:0px
+}
+.tituloproyecto{
+  font-size: 24px;
+}
+
+.separar{
+  margin-bottom: 88px;
+}
+
+.mockup{
+  display: none;
 }
 
   }
